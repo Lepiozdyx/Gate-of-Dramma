@@ -1,5 +1,6 @@
 import Foundation
 import SwiftUI
+import Combine
 
 class UserProfileStore: ObservableObject {
     @Published var username: String = "Drama Enthusiast" {

@@ -1,5 +1,6 @@
 import Foundation
 import Combine
+import SwiftUI
 
 class SeriesStore: ObservableObject {
     @Published var seriesList: [Series] = [] {
